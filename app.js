@@ -6,4 +6,4 @@ var com = +prompt("Enter your Computer Marks")
 var studentObtainedMarks = eng + math + urdu + com;
 var totalMarks = 400;
 var percentage = studentObtainedMarks / totalMarks *100;
-console.log("Your name is:" +userName + " Your result is:" + percentage +" %")
+console.log("Your name is:" +userName + " Your result is:" + percentage +"%")
