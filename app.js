@@ -7,10 +7,12 @@ var com = +prompt("Enter your Computer Marks")
 var studentObtainedMarks = eng + math + urdu + com;
 var totalMarks = 400;
 var percentage = (studentObtainedMarks / totalMarks) * 100;
-console.log("Your name is:", userName);
-console.log("Your Marks are:", studentObtainedMarks);  
-console.log("Your Percentage is:", percentage + "%");
+document.write('<h3>' + "Your name is: ", userName+'<br>' + '</h3>');
+document.write('<h3>' + "Your Marks are: ", studentObtainedMarks +'<br>' + '</h3>');  
+document.write('<h3>' + "Your Percentage is: ", percentage + "%" + '<br>' + '</h3>') ;
 
 var passingMarks = 200;
 var result = studentObtainedMarks >= passingMarks ? "Pass" : "Fail";
-console.log("Your Result is:", result);
+document.write('<h3>' + "Your Result is: ", result + '</h3>');
+
+
